@@ -1,0 +1,226 @@
+
+.rectangle {
+  height: 15%;
+  width: 100%;
+  position:absolute;
+  background-color: #9ca3d6 ;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+
+body {
+  background-color: #cfc1e8
+}
+
+
+h1 {
+  position: relative;
+  color: #f2d5ef
+ 
+}
+
+
+h2.rest {
+  bottom: 5%;  
+  right:41%;
+  position:absolute;
+  color:#3e443c
+}
+
+
+h2.work {
+  bottom: 5%;  
+  right:41%;
+  position:absolute;
+  color:#3e443c
+}
+
+
+.container {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.startContainer {
+    position: absolute;
+    bottom: 40%;
+    left: 30%;
+    background-color: transparent;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px
+}
+
+
+.image {
+ 
+  display: block;
+  margin: 0 auto;
+}
+.stationary-image, .image {
+  justify-content: center;
+  display: inline-block;
+  margin: 0 auto;
+}
+.image:focus, .image:hover {
+  animation: wobble 0.10s linear 100;
+}
+
+
+@keyframes wobble {
+  0% {
+    transform: translateX(0) rotate(0);
+  }
+  20% {
+    transform: translateX(-10px) rotate(-20deg);
+  }
+  30% {
+    transform: translateX(10px) rotate(20deg);
+  }
+  50% {
+    transform: translateX(-10px) rotate(-10deg);
+  }
+  60% {
+    transform: translateX(10px) rotate(10deg);
+  }
+  100% {
+    transform: translateX(0) rotate(0);
+  }
+}
+
+
+.startButton {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 25px 20px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  border-radius: 12px;
+}
+
+
+.pauseButton {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 25px 20px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  border-radius: 12px;
+}
+
+
+.cancelButton {
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 25px 20px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  border-radius: 12px;
+}
+
+
+.startButton,.pauseButton:hover {
+  background-color: rgb(101, 101, 104);
+}
+
+
+.cancelButton:hover {
+  background-color: rgb(167, 14, 14);
+}
+
+
+h2.timer {
+  top: 11%;  
+  right:4%;
+  position:absolute;
+  color:#3e443c;
+  font-size: 30px;
+}
+
+
+.frog {
+  background-color: greenyellow;
+  color: rgb(255, 255, 255);
+  padding: 25px 20px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  border-radius: 12px;
+}
+
+
+
+
+.alien {
+  background-color: purple;
+  color: rgb(255, 255, 255);
+  padding: 25px 20px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  border-radius: 12px;
+}
+
+
+
+
+.penguin {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  padding: 25px 20px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  border-radius: 12px;
+}
+
+.rectangler {
+  height: 15%;
+  width: 60%;
+  top: 40%;
+  right: 20%;
+  position:absolute;
+  background-color: #828c51;
+  Border-radius: 30px;
+}
+
+.pet-image {
+  top:35%;
+  right: 45%;
+  position:absolute;
+}
+
+.tombstone {
+  top:5%;
+  right: 35%;
+  position:absolute;
+}
+
+.death-message {
+  top:80%;
+  right: 32%;
+  position:absolute;
+  background-color: #828c51;
+  Border-radius: 30px;
+}
